@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9179023C2AB4434F001A5047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179023B2AB4434F001A5047 /* AppDelegate.swift */; };
+		9179023E2AB4434F001A5047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179023D2AB4434F001A5047 /* SceneDelegate.swift */; };
+		917902402AB4434F001A5047 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179023F2AB4434F001A5047 /* FirstScreenViewController.swift */; };
+		917902462AB4434F001A5047 /* TruckerCanada.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 917902442AB4434F001A5047 /* TruckerCanada.xcdatamodeld */; };
+		917902482AB44350001A5047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917902472AB44350001A5047 /* Assets.xcassets */; };
+		9179024B2AB44350001A5047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917902492AB44350001A5047 /* LaunchScreen.storyboard */; };
+		917902532AB44B37001A5047 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917902522AB44B37001A5047 /* SecondScreenViewController.swift */; };
+		917902572AB46A0E001A5047 /* CategoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917902562AB46A0E001A5047 /* CategoryDetail.swift */; };
+		91BBB0C72AC553DB006FD3CA /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BBB0C62AC553DB006FD3CA /* APIKeys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		917902382AB4434F001A5047 /* TruckerCanada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckerCanada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9179023B2AB4434F001A5047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9179023D2AB4434F001A5047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9179023F2AB4434F001A5047 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		917902452AB4434F001A5047 /* TruckerCanada.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TruckerCanada.xcdatamodel; sourceTree = "<group>"; };
+		917902472AB44350001A5047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9179024A2AB44350001A5047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9179024C2AB44350001A5047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917902522AB44B37001A5047 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		917902562AB46A0E001A5047 /* CategoryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetail.swift; sourceTree = "<group>"; };
+		91BBB0C62AC553DB006FD3CA /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917902352AB4434F001A5047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9179022F2AB4434F001A5047 = {
+			isa = PBXGroup;
+			children = (
+				9179023A2AB4434F001A5047 /* TruckerCanada */,
+				917902392AB4434F001A5047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917902392AB4434F001A5047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917902382AB4434F001A5047 /* TruckerCanada.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9179023A2AB4434F001A5047 /* TruckerCanada */ = {
+			isa = PBXGroup;
+			children = (
+				91A9518C2AB5BF4100AD20D7 /* Controller */,
+				91A9518B2AB5BF2300AD20D7 /* View */,
+				91A9518A2AB5BF1700AD20D7 /* Model */,
+				9179023B2AB4434F001A5047 /* AppDelegate.swift */,
+				9179023D2AB4434F001A5047 /* SceneDelegate.swift */,
+				917902472AB44350001A5047 /* Assets.xcassets */,
+				9179024C2AB44350001A5047 /* Info.plist */,
+				917902442AB4434F001A5047 /* TruckerCanada.xcdatamodeld */,
+				91BBB0C62AC553DB006FD3CA /* APIKeys.swift */,
+			);
+			path = TruckerCanada;
+			sourceTree = "<group>";
+		};
+		91A9518A2AB5BF1700AD20D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				917902562AB46A0E001A5047 /* CategoryDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91A9518B2AB5BF2300AD20D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				917902492AB44350001A5047 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91A9518C2AB5BF4100AD20D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9179023F2AB4434F001A5047 /* FirstScreenViewController.swift */,
+				917902522AB44B37001A5047 /* SecondScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917902372AB4434F001A5047 /* TruckerCanada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9179024F2AB44350001A5047 /* Build configuration list for PBXNativeTarget "TruckerCanada" */;
+			buildPhases = (
+				917902342AB4434F001A5047 /* Sources */,
+				917902352AB4434F001A5047 /* Frameworks */,
+				917902362AB4434F001A5047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruckerCanada;
+			packageProductDependencies = (
+			);
+			productName = TruckerCanada;
+			productReference = 917902382AB4434F001A5047 /* TruckerCanada.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917902302AB4434F001A5047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					917902372AB4434F001A5047 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 917902332AB4434F001A5047 /* Build configuration list for PBXProject "TruckerCanada" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9179022F2AB4434F001A5047;
+			packageReferences = (
+			);
+			productRefGroup = 917902392AB4434F001A5047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917902372AB4434F001A5047 /* TruckerCanada */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917902362AB4434F001A5047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9179024B2AB44350001A5047 /* LaunchScreen.storyboard in Resources */,
+				917902482AB44350001A5047 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917902342AB4434F001A5047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917902572AB46A0E001A5047 /* CategoryDetail.swift in Sources */,
+				917902402AB4434F001A5047 /* FirstScreenViewController.swift in Sources */,
+				91BBB0C72AC553DB006FD3CA /* APIKeys.swift in Sources */,
+				917902532AB44B37001A5047 /* SecondScreenViewController.swift in Sources */,
+				9179023C2AB4434F001A5047 /* AppDelegate.swift in Sources */,
+				917902462AB4434F001A5047 /* TruckerCanada.xcdatamodeld in Sources */,
+				9179023E2AB4434F001A5047 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		917902492AB44350001A5047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9179024A2AB44350001A5047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9179024D2AB44350001A5047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9179024E2AB44350001A5047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		917902502AB44350001A5047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZVJKNB3WY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TruckerCanada/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eremenko.TruckerCanada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		917902512AB44350001A5047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UZVJKNB3WY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TruckerCanada/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eremenko.TruckerCanada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917902332AB4434F001A5047 /* Build configuration list for PBXProject "TruckerCanada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9179024D2AB44350001A5047 /* Debug */,
+				9179024E2AB44350001A5047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9179024F2AB44350001A5047 /* Build configuration list for PBXNativeTarget "TruckerCanada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917902502AB44350001A5047 /* Debug */,
+				917902512AB44350001A5047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		917902442AB4434F001A5047 /* TruckerCanada.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				917902452AB4434F001A5047 /* TruckerCanada.xcdatamodel */,
+			);
+			currentVersion = 917902452AB4434F001A5047 /* TruckerCanada.xcdatamodel */;
+			path = TruckerCanada.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 917902302AB4434F001A5047 /* Project object */;
+}
